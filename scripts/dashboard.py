@@ -2,9 +2,8 @@ from flask import Flask, render_template
 import os
 import json
 
-app = Flask(__name__, template_folder="../templates")
-
-BASE_FOLDER = "../outputs/accounts"
+app = Flask(__name__, template_folder="templates")
+BASE_FOLDER = "outputs/accounts"
 
 def load_accounts():
     accounts = []
