@@ -1,0 +1,18 @@
+{
+    "account_id": "account_4",
+    "company_name": "",
+    "business_hours": "8-6",
+    "office_address": "",
+    "services_supported": [
+        "electrical services"
+    ],
+    "emergency_definition": [],
+    "emergency_routing_rules": "dispatch",
+    "non_emergency_routing_rules": "",
+    "call_transfer_rules": "",
+    "integration_constraints": "Do not create jobs automatically in ServiceTrade",
+    "after_hours_flow_summary": "",
+    "office_hours_flow_summary": "",
+    "questions_or_unknowns": [],
+    "notes": ""
+}

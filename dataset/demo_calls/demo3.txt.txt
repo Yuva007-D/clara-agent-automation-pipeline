@@ -1,0 +1,15 @@
+Speaker 1: Welcome to the Clara demo.
+
+Speaker 2: This is Prime Power Electric. We provide electrical inspections and maintenance.
+
+Speaker 1: What type of calls do you receive?
+
+Speaker 2: Customers usually call about electrical failures or inspection scheduling.
+
+Speaker 1: What are your office hours?
+
+Speaker 2: Around 9 AM to 5 PM.
+
+Speaker 1: How do you handle emergencies?
+
+Speaker 2: Emergency electrical issues should go to our technician on duty.

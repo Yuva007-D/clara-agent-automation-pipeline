@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Clara Agent Dashboard</title>
+    <style>
+        body { font-family: Arial; margin: 40px; }
+        h1 { color: #333; }
+        .account { border:1px solid #ccc; padding:20px; margin-bottom:20px; }
+        pre { background:#f4f4f4; padding:10px; }
+    </style>
+</head>
+
+<body>
+
+<h1>Clara Agent Automation Dashboard</h1>
+
+{% for acc in accounts %}
+
+<div class="account">
+
+<h2>{{ acc.name }}</h2>
+
+<h3>Version 1 Memo</h3>
+<pre>{{ acc.v1 }}</pre>
+
+<h3>Version 2 Memo</h3>
+<pre>{{ acc.v2 }}</pre>
+
+<h3>Changelog</h3>
+<pre>{{ acc.changes }}</pre>
+
+</div>
+
+{% endfor %}
+
+</body>
+</html>

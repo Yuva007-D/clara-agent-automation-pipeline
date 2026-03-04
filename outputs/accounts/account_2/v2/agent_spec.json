@@ -1,0 +1,10 @@
+{
+    "agent_name": "account_2_agent",
+    "voice_style": "professional",
+    "business_hours": "8-6",
+    "services_supported": [
+        "electrical services"
+    ],
+    "emergency_routing": "dispatch",
+    "version": "v2"
+}

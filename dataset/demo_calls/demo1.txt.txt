@@ -1,0 +1,15 @@
+Speaker 1: Hello thanks for joining the demo today.
+
+Speaker 2: Hi this is Ben from Ben's Electric. We provide electrical repair and maintenance services for commercial buildings.
+
+Speaker 1: What kind of calls do you usually get?
+
+Speaker 2: Most calls are non emergency electrical repairs like wiring issues or power problems.
+
+Speaker 1: What are your business hours?
+
+Speaker 2: Usually around 9 AM to 5 PM Monday to Friday.
+
+Speaker 1: And how do you handle emergencies?
+
+Speaker 2: If there is a power outage or urgent electrical issue we route it to our on call technician.

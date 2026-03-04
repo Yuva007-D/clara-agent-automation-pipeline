@@ -1,0 +1,19 @@
+Speaker 1: Let's finalize your configuration.
+
+Speaker 2: Sure.
+
+Speaker 1: What are the exact business hours?
+
+Speaker 2: 8 AM to 6 PM Pacific Time.
+
+Speaker 1: How should emergency calls be routed?
+
+Speaker 2: Emergency electrical outages should go to dispatch first.
+
+Speaker 1: What if transfer fails?
+
+Speaker 2: If transfer fails after 60 seconds the system should notify dispatch and promise a callback.
+
+Speaker 1: Any system constraints?
+
+Speaker 2: Do not create jobs automatically in ServiceTrade.
