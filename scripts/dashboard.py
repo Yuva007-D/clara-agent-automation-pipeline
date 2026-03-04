@@ -2,9 +2,14 @@ from flask import Flask, render_template
 import os
 import json
 
-app = Flask(__name__, template_folder="templates")
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-BASE_FOLDER = "outputs/accounts"
+TEMPLATE_DIR = os.path.join(BASE_DIR, "templates")
+OUTPUT_DIR = os.path.join(BASE_DIR, "outputs", "accounts")
+
+app = Flask(__name__, template_folder=TEMPLATE_DIR)
+
+BASE_FOLDER = OUTPUT_DIR
 
 def load_accounts():
     accounts = []
