@@ -128,4 +128,6 @@ v2/
 - Add a simple dashboard for reviewing account configurations
 - Implement better transcript parsing
 
+## Video Referance Link
+https://drive.google.com/file/d/1o86gHMJEbbAnJx92bDi996F9Gpf7Ktg8/view?usp=sharing
 
