@@ -2,8 +2,10 @@ from flask import Flask, render_template
 import os
 import json
 
+# Get project root directory
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
+# Correct paths for templates and outputs
 TEMPLATE_DIR = os.path.join(BASE_DIR, "templates")
 OUTPUT_DIR = os.path.join(BASE_DIR, "outputs", "accounts")
 
@@ -11,11 +13,22 @@ app = Flask(__name__, template_folder=TEMPLATE_DIR)
 
 BASE_FOLDER = OUTPUT_DIR
 
+
 def load_accounts():
     accounts = []
 
+    # If outputs folder doesn't exist, return empty
+    if not os.path.exists(BASE_FOLDER):
+        return accounts
+
     for account in os.listdir(BASE_FOLDER):
-        account_data = {"name": account, "v1": None, "v2": None, "changes": None}
+
+        account_data = {
+            "name": account,
+            "v1": None,
+            "v2": None,
+            "changes": None
+        }
 
         v1_path = os.path.join(BASE_FOLDER, account, "v1", "memo.json")
         v2_path = os.path.join(BASE_FOLDER, account, "v2", "memo.json")
@@ -37,12 +50,12 @@ def load_accounts():
 
     return accounts
 
+
 @app.route("/")
 def index():
     accounts = load_accounts()
     return render_template("index.html", accounts=accounts)
 
-import os
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 10000))
